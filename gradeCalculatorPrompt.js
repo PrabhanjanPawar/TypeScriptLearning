@@ -6,6 +6,7 @@ console.log("Marks of Mathematic is : ".concat(maths));
 console.log("Marks of Physics is : ".concat(physics));
 console.log("Marks of Chemistry is : ".concat(chemistry));
 confirm("Thanks for providing details,Click \"Ok\" for Addition of Marks");
+// if (maths > 0 || maths < 100 && physics > 0 || physics < 100 && physics > 0 || physics < 100) {
 var sum = maths + physics + chemistry;
 console.log("Addition of Total marks is : ".concat(sum));
 var average = sum / 3;
@@ -27,3 +28,6 @@ if (average > 90) {
     console.log("Hey...Your grade is \"A\"");
     alert("Hey...Your grade is \"A\"");
 }
+// }else{
+//     console.log(`Please provide valid numbers`);
+// }
